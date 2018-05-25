@@ -5,12 +5,13 @@ import './app/index.css';
 import App from './app/App';
 import registerServiceWorker from './app/registerServiceWorker';
 import configureStore from './store/configureStore';
+import Pacient from './app/Pacient';
 
 const store = configureStore();
 
 render(
     <Provider store={store}>
-        <App />
+        <Pacient />
     </Provider>, 
     document.getElementById('root')
 );
