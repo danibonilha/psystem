@@ -42,16 +42,16 @@ class Pacient extends React.Component {
                         Ativo
                     </Checkbox>
                     
-                    <FormGroup controlId="formControlsSelect">
-                        <ControlLabel>Select</ControlLabel>
+                    <FormGroup controlId="clinica">
+                        <ControlLabel>Clinica</ControlLabel>
                         <FormControl componentClass="select" placeholder="Selecionar Clinica">
                             <option value="clinica1">Clinica 1</option>
                             <option value="clinica2">Clinica 2</option>
                         </FormControl>
                     </FormGroup>
 
-                    <FormGroup controlId="formControlsTextarea">
-                        <ControlLabel>Textarea</ControlLabel>
+                    <FormGroup controlId="observacao">
+                        <ControlLabel>Observação</ControlLabel>
                         <FormControl componentClass="textarea" placeholder="textarea" />
                     </FormGroup>
                     
